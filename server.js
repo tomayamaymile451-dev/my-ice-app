@@ -19,7 +19,7 @@ if (serviceAccount.project_id) {
 // ১. টেলিগ্রাম চ্যানেল লিংকের ব্যাকএন্ড API
 app.get('/api/telegram-link', (req, res) => {
     // আপনার আসল টেলিগ্রাম চ্যানেল লিংকটি নিচে বসিয়ে দিন
-    res.json({ link: 'https://t.me/your_telegram_channel_username' });
+    res.json({ link: 'https://t.me/+iuwzgCxozp5hNDg1' });
 });
 
 // ২. সিকিউর ব্যাকএন্ড লগইন API
