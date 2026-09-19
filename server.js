@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 3000;
 // মিডলওয়্যার কনফিগারেশন
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public')); // লোকাল ফাইল ও ছবি লোড করার জন্য
+app.use(express.static(__dirname));
+// লোকাল ফাইল ও ছবি লোড করার জন্য
 
 // মূল অ্যাপ বা ফ্রন্ট-এন্ড রেন্ডার করার রুট
 app.get('/', (req, res) => {
