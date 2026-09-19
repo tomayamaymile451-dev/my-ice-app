@@ -307,12 +307,10 @@ app.get('/', (req, res) => {
     }).catch(function(error) {
       verifyBtn.innerText = 'VERIFY ACCESS';
       alert('❌ Access Denied / Connection Error!');
-    }     });
-311: });
-312: </script>
-313: </body>
-314: </html>
-315: `);
-316 });
-
-  }
+         });
+});
+</script>
+</body>
+</html>
+`);
+});
